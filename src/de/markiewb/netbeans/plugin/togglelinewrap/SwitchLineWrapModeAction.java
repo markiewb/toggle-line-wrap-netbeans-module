@@ -41,12 +41,11 @@ import org.openide.util.lookup.ServiceProvider;
 
 @ActionID(
     category = "Editor",
-id = "de.markiewb.netbeans.plugin.togglelinewrap.SomeAction")
+id = "de.markiewb.netbeans.plugin.togglelinewrap.SwitchLineWrapModeAction")
 @ActionRegistration(
-    displayName = "#CTL_SomeAction")
-//@ActionReference(path = "Menu/File", position = 100)
+    displayName = "#CTL_SwitchLineWrapModeAction")
 @Messages({
-    "CTL_SomeAction=Toggle line wrap",
+    "CTL_SwitchLineWrapModeAction=Toggle line wrap",
     "mode.none=Wrap: off",
     "mode.words=Wrap: words",
     "mode.chars=Wrap: chars"
